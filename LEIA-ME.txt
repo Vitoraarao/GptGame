@@ -1,21 +1,42 @@
 MISSÃO CHAGAS — O CAMINHO DA DESCOBERTA
 
-Como executar:
-1. Extraia o ZIP.
-2. Abra index.html em um navegador moderno (Chrome, Edge, Firefox ou Safari).
-3. Clique em “Iniciar expedição”.
+Esta versão foi reconstruída usando a gravação enviada como referência visual.
+Ela reproduz o estilo e as mecânicas visíveis no vídeo; não contém os arquivos-fonte
+originais do site nem deve ser apresentada como uma recuperação exata deles.
 
-Controles:
-PC: setas ou A/D para andar; Espaço/W/↑ para saltar; J ou X para disparar; E para investigar; F para entrar/sair do blindado.
-Celular/iPad: use os botões na tela, incluindo VEÍCULO.
-O blindado anda mais rápido e dispara com J/X ou PULVERIZAR.
-Investigue oito pistas; depois vá à direita ao laboratório e acerte o alvo.
-O jogo aguarda a resposta enquanto uma pergunta estiver aberta.
-Salvamentos da versão antiga retomam antes das novas perguntas.
+COMO JOGAR
+Extraia a pasta inteira do ZIP e abra index.html em um navegador moderno.
+Mantenha styles.css, game.js, renderer.js e questions.js na mesma pasta.
+Não é necessário instalar dependências ou conectar serviços externos.
+Para servir localmente: python3 -m http.server 8000 na pasta do jogo.
 
-O progresso é salvo localmente no navegador (localStorage).
+CONTROLES
+Setas ou A/D: andar e dirigir.
+Espaço, W ou seta para cima: saltar.
+J ou X: disparar na direção em que o personagem está olhando.
+E: investigar o marco dourado próximo ou rever uma descoberta concluída.
+F: entrar ou sair do blindado MC-01 quando estiver próximo e apoiado no chão.
+P ou Escape: pausar. Escape também fecha uma investigação aberta.
+Celular e iPad: botões na tela; Modo iPad exibe os controles também no computador.
+Som e ampliação: botões acima da cena.
 
-Observação:
-Este é um remake funcional reconstruído a partir da descrição e do registro textual
-preservado do projeto. Não é uma exportação dos arquivos-fonte originais do site publicado.
-O jogo é educativo e simplificado; elementos de combate são ficcionais.
+OITO DESCOBERTAS
+1. Transmissão: ordene as quatro etapas. Toque novamente para remover uma etapa;
+   use Desfazer ou Recomeçar ordem quando necessário. Depois, verifique a resposta.
+2. Outras vias de transmissão.
+3. Sinal clínico.
+4. Investigação de um caso.
+5. Diagnóstico.
+6. Prevenção e políticas públicas.
+7. Tratamento.
+8. Conclusão.
+As respostas corretas liberam as passagens. Leia a explicação e clique em
+Continuar expedição. Colete também as 21 notas opcionais nas plataformas.
+No laboratório, os disparos precisam acertar o alvo para vencer o desafio final.
+
+O progresso é salvo automaticamente neste navegador. Ele não é compartilhado
+entre dispositivos, contas ou endereços diferentes. Recomeçar exige confirmação.
+Salvamentos da versão simplificada mantêm as primeiras descobertas compatíveis.
+
+O jogo é educativo. O blindado, o pulverizador e os combates são fantasia;
+não representam tratamento nem controle real de insetos.
