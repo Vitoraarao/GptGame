@@ -1,0 +1,21 @@
+MISSÃO CHAGAS — O CAMINHO DA DESCOBERTA
+
+Como executar:
+1. Extraia o ZIP.
+2. Abra index.html em um navegador moderno (Chrome, Edge, Firefox ou Safari).
+3. Clique em “Iniciar expedição”.
+
+Controles:
+PC: setas ou A/D para andar; Espaço/W/↑ para saltar; J ou X para disparar; E para investigar; F para entrar/sair do blindado.
+Celular/iPad: use os botões na tela, incluindo VEÍCULO.
+O blindado anda mais rápido e dispara com J/X ou PULVERIZAR.
+Investigue oito pistas; depois vá à direita ao laboratório e acerte o alvo.
+O jogo aguarda a resposta enquanto uma pergunta estiver aberta.
+Salvamentos da versão antiga retomam antes das novas perguntas.
+
+O progresso é salvo localmente no navegador (localStorage).
+
+Observação:
+Este é um remake funcional reconstruído a partir da descrição e do registro textual
+preservado do projeto. Não é uma exportação dos arquivos-fonte originais do site publicado.
+O jogo é educativo e simplificado; elementos de combate são ficcionais.
